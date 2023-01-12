@@ -1,0 +1,36 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>Acordeones Herencia</h1>
+    <p class="lead">Django is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a href="https://www.djangoproject.com/" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+</div>
+
+<section id="quote">
+    <p class="text-center" id="quote-p">
+        &ldquo;The accordion is a beautiful instrument whose notes are used to share stories about love, the motherland, brave men, and joyful tunes&rdquo;
+    </p>
+</section>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Buy</h2>
+        <p>
+            Shop our accordions
+        </p>
+        <p><a class="btn btn-default" href="https://djangobook.com/django-tutorials/">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Finance</h2>
+        <p>special financing available </p>
+        <p><a class="btn btn-default" href="https://pypi.org/">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Learn</h2>
+        <p>Check out our tutorials</p>
+        <p><a class="btn btn-default" href="http://azure.microsoft.com">Learn more &raquo;</a></p>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,211 @@
+body {
+    padding-top: 80px;
+    padding-bottom: 0px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 100%;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+:root {
+    --bkg-color: #C8691C;
+    --hover-text: white;
+}
+
+/*Navbar Background*/
+
+/*Setting static toggle button*/
+.navbar{
+    background-color: var(--bkg-color);
+    position: absolute;
+}
+
+#navlogo {
+    float: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    font-size: 18px;
+    line-height: 20px;
+    align-content: center;
+    display: grid;
+    justify-content: center;
+    height: 80px;
+    color: red;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: var(--hover-text);
+    text-decoration: none;
+}
+
+.nav-link:active{
+    color: var(--hover-text);
+    text-decoration: none;
+}
+
+/*Navbar Shopping Cart Editing*/
+.nav-link i{
+    padding-right: 15px;
+}
+
+/*Navbar logo*/
+.nav-logo{
+    width: 150px;
+    height: 70px
+}
+
+/*footer*/
+footer{
+    background-color: var(--bkg-color);
+    height: 200px;
+}
+
+footer .col-md-3{
+    margin-top: 25px;
+}
+
+footer .row{
+    height: 200px;
+}
+
+.footer-logo{
+    height: 80px;
+    width: 180px;
+    margin: auto;
+}
+
+footer .footer-contact-info{
+    color: white;
+}
+
+footer .footer-contact-info i{
+    line-height: 1.8;
+    font-size: 22px;
+}
+
+footer .footer-shop i {
+    line-height: 1.8;
+    font-size: 22px;
+    color: white;
+}
+
+footer .footer-shop span {
+    margin-left: 25px;
+    line-height: 1.8;
+    font-size: 1.8rem;
+    color: white;
+}
+
+footer .footer-contact-info span{
+    margin-left: 25px;
+    line-height: 1.8;
+    font-size: 1.4rem;
+}
+
+footer h3{
+    letter-spacing: 1.75px;
+}
+
+#services-footer{
+    font-size: 1.75rem;
+    line-height: 1.75;
+}
+
+#services-footer a{
+    color: white;
+    line-height: 1.25;
+}
+
+#services-footer a:hover,
+#services-footer a:active{
+    color: var(--hover-text);
+    text-decoration: none;
+}
+
+#ropra{
+    background-color: lightgrey;
+    height: 40px;
+    color: white;
+}
+
+#ropra p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#ropra a{
+    color: white;
+}
+
+@media (max-width: 767px){
+    footer{
+        height: 480px;
+    }
+    footer .row{
+        height: auto;
+    }
+    #shop{
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 768px){
+    .navbar-nav {
+        float: right;
+    }
+    #shoppingcart{
+        padding-left: 15px;
+    }
+}
+
+@media(min-width: 992px){
+    .nav-link{
+        font-size: 2.25rem;
+        padding-left: 15px;
+    }
+    .nav-item{
+        margin-right: 15px;
+    }
+    #shoppingcart {
+        padding-left: 30px;
+    }
+}

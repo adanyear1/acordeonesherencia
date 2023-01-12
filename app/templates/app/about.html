@@ -1,0 +1,39 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="../../static/app/content/about.css" />
+
+<section class="banner d-flex align-items-center justify-content-center">
+    <div class="container">
+        <h2 class="text-center"><strong>About Us!</strong></h2>
+    </div>
+</section>
+
+<section id="about-p">
+    <h2><strong>The Acordeones Herencia Story</strong></h2>
+    <p id="story-p">
+        Acordeones Herencia is a subsidiary of Herencia Industries that provides beautiful accordions to both student and professional 
+        musicians. Due to Enrique&#39s Love of the accordion and Manuel&#39s background in manufacturing and design the duo decided to design a 
+        piano accordion that will satisfy the needs of student, and professional musicians. In the fall of 2022 the first accordion from 
+        Acordeones Herencia became available in the market, being loved by aspiring, student and professional accordionists due to their 
+        loud beautiful notes and modern design.  
+    </p>
+    <p id="story-p">
+        Our mission is to create high quality accordions for musicians of all levels. We strive to provide an accordion that our customers 
+        can use for years to come and inherit to their children and grandchildren.
+    </p>
+    <p id="story-p">
+        Our vision is to be a global provider of accordions to musicians worldwide who are looking to play the music that was inherited by them by their culture. 
+    </p>
+
+</section>
+
+<section class="banner-timeline">
+    <div class="container">
+        <img src="../../static/app/Images/timeline.png" class="timeline-image w-100" alt="Acordeones Herencia Timeline" />
+    </div>
+</section>
+
+{% endblock %}
